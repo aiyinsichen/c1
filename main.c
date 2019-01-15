@@ -42,6 +42,10 @@ int main()
         }
         if (a == 3)
         {
+            printf("当前余额为：\n");
+            printf("%d\n",qian);
+
+            printf
         }
         if (a == 4)
         {
