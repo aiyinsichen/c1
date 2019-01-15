@@ -33,11 +33,20 @@ int main()
             int qu;
             char x;
             printf("进入取钱管理系统\n");
+            if(qian>=qu){
             scanf("%d", &qu);
-            qian -= qu;
+             qian -= qu;
             printf("取钱成功，点击回车继续\n");
             scanf("%c", &x);
             scanf("%c", &x);
+        }
+        else{
+             qian<qu;
+             printf("余额不足，取出失败，点击回车继续\n");
+             char x;
+             scanf("%c", &x);
+             scanf("%c", &x);
+        }    
         }
         if (a == 3)
         {
