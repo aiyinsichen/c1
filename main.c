@@ -31,6 +31,14 @@ int main()
         }
         if (a == 2)
         {
+            int qu;
+            char x;
+            printf("进入取钱管理系统\n");
+            scanf("%d",&qu);
+            qian-=qu;
+            printf("取钱成功，点击回车继续\n");
+            scanf("%c",&x);
+            scanf("%c",&x);
         }
         if (a == 3)
         {
